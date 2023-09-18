@@ -11,6 +11,7 @@
 
 <img 
     src="resources/images/sageyawn.jpeg"
+
 />
 
 <h3>meow :3</h3>
@@ -27,5 +28,18 @@
 
 <h3>zzz</h3>
 
+<p>Counter: <span id="counter">0</span></p>
+<button id="fanBtn">Are you also a fan?</button>
+
+<script>
+    let counter = 0;
+    let counterDisplay = document.getElementById("counter");
+    let incrementButton = document.getElementById("fanBtn");
+  
+    incrementButton.addEventListener("click", function () {
+      counter++;
+      counterDisplay.textContent = counter;
+    });
+</script>
 </body>
 </html>
