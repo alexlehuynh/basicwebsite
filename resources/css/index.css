@@ -1,0 +1,38 @@
+
+
+/* Center the content in the middle of the page */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Background color */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the paragraph */
+  p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the links */
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: blue; /* Link background color */
+    color: white; /* Link text color */
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
