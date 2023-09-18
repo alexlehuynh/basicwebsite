@@ -7,6 +7,20 @@
 <body>
 <h1>SAGEEEEEEEE</h1>   
 <a href="index.html">Back to Home</a>
+<h3> Basic Info </h3>
+<table bgcolor="black">
+    <tr bgcolor="white">
+        <th>Name</th>
+        <th>Birthday</th>
+        <th>Birth Place</th>
+    </tr>
+    <tr bgcolor="lightblue">
+        <th>Sage</th>
+        <th>February 24th 2021</th>
+        <th>Latvia</th>
+    </tr>
+</table>
+
 <p>here are some photos of her yawning</p>
 
 <img 
@@ -31,15 +45,6 @@
 <p>Counter: <span id="counter">0</span></p>
 <button id="fanBtn">Are you also a fan?</button>
 
-<script>
-    let counter = 0;
-    let counterDisplay = document.getElementById("counter");
-    let incrementButton = document.getElementById("fanBtn");
-  
-    incrementButton.addEventListener("click", function () {
-      counter++;
-      counterDisplay.textContent = counter;
-    });
-</script>
+<script src="resources/js/fanbutton.js"></script>
 </body>
 </html>
