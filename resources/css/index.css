@@ -18,21 +18,21 @@ body {
   
   /* Style the images */
   img {
-    max-width: 100%;
+    max-width: 100%;            
     height: auto;
     display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto;         /*spacing around an element, i used auto as it says that it is commonly used to horiz ceneter block withjin container, basically centers element*/
+    margin-bottom: 20px;    /*adds space below every img giving it a gap*/
   }
   
   /* Style the links */
   a {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
+    display: inline-block; 
+    padding: 10px 20px;   /*space inside link's container basicaly*/
+    text-decoration: none; /*none removes the underline from links*/
     background-color: blue; /* Link background color */
     color: white; /* Link text color */
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 5px; /*gives link rounded corners*/
   }
   
